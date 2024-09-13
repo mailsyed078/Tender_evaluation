@@ -1,0 +1,9 @@
+notebook
+langchain
+langchain_community
+langchain_core
+pypdf
+sentence_transformers
+faiss-cpu
+ipykernel
+PyPDF2

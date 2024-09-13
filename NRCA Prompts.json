@@ -1,0 +1,445 @@
+{"promptConfig": [
+  {
+    "questionCategory": "KYB: Know Your Bidder",
+    "prompt": [
+      {
+        "prompt": "Name Of The Bidder? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Name Of The Bidder",
+        "question": "Name Of The Bidder",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Bidder Identity"
+      },
+      {
+        "prompt": "Address of the Bidder? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Address of the Bidder",
+        "question": "Address of the Bidder",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Bidder Identity"
+      },
+      {
+        "prompt": "Log-in email ID of the Portal? Response json schema is : [{\"question\":\"\",\"response\":[]}]. Provide the response in the form of array of strings in response. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Log-in email ID of the Portal",
+        "question": "Log-in email ID of the Portal",
+        "responseType": "multivalue",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Bidder Identity"
+      },
+      {
+        "prompt": "Name of contact person? Response json schema is : [{\"question\":\"\",\"response\":[]}]. Provide the response in the form of array of strings in response. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Name of contact person",
+        "question": "Name of contact person",
+        "responseType": "multivalue",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Bidder Identity"
+      },
+      {
+        "prompt": "E-mail ID of contact person? Response json schema is : [{\"question\":\"\",\"response\":[]}]. Provide the response in the form of array of strings in response. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "E-mail ID of contact person",
+        "question": "E-mail ID of contact person",
+        "responseType": "multivalue",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Bidder Identity"
+      },
+      {
+        "prompt": "Mobile Number of contact person? Response json schema is : [{\"question\":\"\",\"response\":[]}]. Provide the response in the form of array of strings in response. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Mobile Number of contact person",
+        "question": "Mobile Number of contact person",
+        "responseType": "multivalue",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Bidder Identity"
+      },
+      {
+        "prompt": "Name of CEO / CMD? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Name of CEO / CMD",
+        "question": "Name of CEO / CMD",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Bidder Identity"
+      },
+      {
+        "prompt": "OEM / Authorised Partner? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "OEM / Authorised Partner",
+        "question": "OEM / Authorised Partner",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Bidder Identity"
+      },
+      {
+        "prompt": "No. of Offices & Locations? Response json schema is : [{\"question\":\"\",\"response\":[]}]. Provide the response in the form of array of strings in response. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "No. of Offices & Locations",
+        "question": "No. of Offices & Locations",
+        "responseType": "multivalue",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Bidder Identity"
+      },
+      {
+        "prompt": "PAN Card number of the bidder? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "PAN Card number of the bidder",
+        "question": "PAN Card number of the bidder",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Existence"
+      },
+      {
+        "prompt": "GST Registration Certificate number of the bidder? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "GST Registration Certificate number of the bidder",
+        "question": "GST Registration Certificate number of the bidder",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Existence"
+      },
+      {
+        "prompt": "Type of Company / Firm? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Type of Company / Firm",
+        "question": "Type of Company / Firm",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Existence"
+      },
+      {
+        "prompt": "Date of Incorporation? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Date of Incorporation",
+        "question": "Date of Incorporation",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Existence"
+      },
+      {
+        "prompt": "Quality Certification (Relevant Types)? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Quality Certification (Relevant Types)",
+        "question": "Quality Certification (Relevant Types)",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Existence"
+      },
+      {
+        "prompt": "PF Registration? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "PF Registration",
+        "question": "PF Registration",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Existence"
+      },
+      {
+        "prompt": "ESIC Registration (wherever applicable)? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "ESIC Registration (wherever applicable)",
+        "question": "ESIC Registration (wherever applicable)",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Existence"
+      },
+      {
+        "prompt": "Avg. No. of Employees per year (last 3 or 5 years)? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Avg. No. of Employees per year (last 3 or 5 years)",
+        "question": "Avg. No. of Employees per year (last 3 or 5 years)",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Existence"
+      }
+    ]
+  },
+  {
+    "questionCategory": "PQC: Pre-Qualification Criteria",
+    "prompt": [
+      {
+        "prompt": "POA / Power of Attorney Submitted? Response json schema is : [{\"question\":\"\",\"response\":[]}]. Provide the response in the form of array of strings in response. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "POA / Power of Attorney Submitted",
+        "question": "POA / Power of Attorney Submitted",
+        "responseType": "multivalue",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Legal / Admin"
+      },
+      {
+        "prompt": "EMD Submitted? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "EMD Submitted",
+        "question": "EMD Submitted",
+        "responseType": "yes/no",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Legal / Admin"
+      },
+      {
+        "prompt": "Conflict of Interest? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Conflict of Interest",
+        "question": "Conflict of Interest",
+        "responseType": "yes/no",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Legal / Admin"
+      },
+      {
+        "prompt": "Black Listed / Projects Under Litigation? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Black Listed / Projects Under Litigation",
+        "question": "Black Listed / Projects Under Litigation",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Legal / Admin"
+      },
+      {
+        "prompt": "Declaration on NCLT/ NCLAT/ DRT/ DRAT/ Court Receivership/ Liquidation submission? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Declaration on NCLT/ NCLAT/ DRT/ DRAT/ Court Receivership/ Liquidation submission",
+        "question": "Declaration on NCLT/ NCLAT/ DRT/ DRAT/ Court Receivership/ Liquidation submission",
+        "responseType": "yes/no",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Legal / Admin"
+      },
+      {
+        "prompt": "Is estimated project cost Rs / INR / ₹ 100 Crore ,if yes is the bidder a JV / Joint Venture? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Is estimated project cost Rs / INR / ₹ 100 Crore ,if yes is the bidder a JV / Joint Venture",
+        "question": "Is estimated project cost Rs / INR / ₹ 100 Crore ,if yes is the bidder a JV / Joint Venture",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Legal / Admin"
+      },
+      {
+        "prompt": "Has bidder completed at least one similar work of 20%  of Estimated Project Cost? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Has bidder completed at least one similar work of 20%  of Estimated Project Cost",
+        "question": "Has bidder completed at least one similar work of 20%  of Estimated Project Cost",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Legal / Admin"
+      },
+      {
+        "prompt": "Do listed Eligible Projects meet criteria stated in Clause 2.2.2.5 of RFP? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Do listed Eligible Projects meet criteria stated in Clause 2.2.2.5 of RFP",
+        "question": "Do listed Eligible Projects meet criteria stated in Clause 2.2.2.5 of RFP",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Legal / Admin"
+      },
+      {
+        "prompt": "Do listed Eligible Experience on Eligible Projects meet clause 2.2.2.6 of RFP criteria? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Do listed Eligible Experience on Eligible Projects meet clause 2.2.2.6 of RFP criteria",
+        "question": "Do listed Eligible Experience on Eligible Projects meet clause 2.2.2.6 of RFP criteria",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Legal / Admin"
+      },
+      {
+        "prompt": "Fulfills minimum threshold of turnover? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Fulfills minimum threshold of turnover",
+        "question": "Fulfills minimum threshold of turnover",
+        "responseType": "yes/no",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Financial"
+      },
+      {
+        "prompt": "Fulfills minimum threshold of Profits? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Fulfills minimum threshold of Profits",
+        "question": "Fulfills minimum threshold of Profits",
+        "responseType": "yes/no",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Financial"
+      },
+      {
+        "prompt": "Fulfills minimum threshold of Bid Capacity (has adequate spare resources to fulfill project / work requirements)? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Fulfills minimum threshold of Bid Capacity (has adequate spare resources to fulfill project / work requirements)",
+        "question": "Fulfills minimum threshold of Bid Capacity (has adequate spare resources to fulfill project / work requirements)",
+        "responseType": "yes/no",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Financial"
+      },
+      {
+        "prompt": "Net Worth of the bidder? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Net Worth of the bidder",
+        "question": "Net Worth of the bidder",
+        "responseType": "text",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Financial"
+      },
+      {
+        "prompt": "Are listed experiences relevant to the RFP? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Are listed experiences relevant to the RFP.",
+        "question": "Are listed experiences relevant to the RFP.",
+        "responseType": "yes/no",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Technical"
+      },
+      {
+        "prompt": "Fulfills minimum technical experience? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Fulfills minimum technical experience.",
+        "question": "Fulfills minimum technical experience.",
+        "responseType": "yes/no",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Technical"
+      },
+      {
+        "prompt": "Are listed experiences relevant to the RFP? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Are listed experiences relevant to the RFP",
+        "question": "Are listed experiences relevant to the RFP",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Technical"
+      }
+    ]
+  },
+  {
+    "questionCategory": "Financial Information",
+    "prompt": [
+      {
+        "prompt": "Name of the certificates submitted by the bidder as per requirement mentioned in the RFP document? Response json schema is : [{\"question\":\"\",\"response\":[]}]. Provide the response in the form of array of strings in response. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Name of the certificates submitted by the bidder as per requirement mentioned in the RFP document",
+        "question": "Name of the certificates submitted by the bidder as per requirement mentioned in the RFP document",
+        "responseType": "multivalue",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Compliance"
+      },
+      {
+        "prompt": "Audited Balance Sheet for last 3 or 5 years? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Audited Balance Sheet for last 3 or 5 years",
+        "question": "Audited Balance Sheet for last 3 or 5 years",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Compliance"
+      },
+      {
+        "prompt": "Certified statement of Value of Existing Commitments (where Appointed Date / Commencement Date has been declared) & Ongoing Projects submitted? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Certified statement of Value of Existing Commitments (where Appointed Date / Commencement Date has been declared) & Ongoing Projects submitted",
+        "question": "Certified statement of Value of Existing Commitments (where Appointed Date / Commencement Date has been declared) & Ongoing Projects submitted",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Compliance"
+      },
+      {
+        "prompt": "Annual Turnover details of the bidder for last Three / Five FYs with amount units? Response json schema is : [{\"question\":\"\",\"response\":[[{\"key\":\"2017-18\",\"value\":\"\"},{\"key\":\"2018-19\",\"value\":\"\"},{\"key\":\"2019-20\",\"value\":\"\"},{\"key\":\"2020-21\",\"value\":\"\"},{\"key\":\"2021-22\",\"value\":\"\"}]]}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Annual Turnover details of the bidder for last Three / Five FYs with amount units",
+        "question": "Annual Turnover details of the bidder for last Three / Five FYs with amount units",
+        "responseType": "list",
+        "questionType": "generic",
+        "attributes": [
+          "2017-18",
+          "2018-19",
+          "2019-20",
+          "2020-21",
+          "2021-22"
+        ],
+        "subCategory": "Financial Health"
+      },
+      {
+        "prompt": "Annual Profits (before Tax, Interest & Depreciation)? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Annual Profits (before Tax, Interest & Depreciation)",
+        "question": "Annual Profits (before Tax, Interest & Depreciation)",
+        "responseType": "text",
+        "questionType": "generic",
+        "attributes": null,
+        "subCategory": "Financial Health"
+      },
+      {
+        "prompt": "Payments received over last 5 Financial Years, adjusted to price level, for construction of Eligible Projects? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Payments received over last 5 Financial Years, adjusted to price level, for construction of Eligible Projects",
+        "question": "Payments received over last 5 Financial Years, adjusted to price level, for construction of Eligible Projects",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Financial Health"
+      },
+      {
+        "prompt": "Payments received over last 5 Financial Years, adjusted to price level, for construction work undertaken by itself in  PPP projects? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Payments received over last 5 Financial Years, adjusted to price level, for construction work undertaken by itself in  PPP projects",
+        "question": "Payments received over last 5 Financial Years, adjusted to price level, for construction work undertaken by itself in  PPP projects",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Financial Health"
+      },
+      {
+        "prompt": "What is the maximum value (excluding Bonus Amount) of Civil Engineering Work, in respect of EPC Projects, done by the bidder in last 5 years? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "What is the maximum value (excluding Bonus Amount) of Civil Engineering Work, in respect of EPC Projects, done by the bidder in last 5 years",
+        "question": "What is the maximum value (excluding Bonus Amount) of Civil Engineering Work, in respect of EPC Projects, done by the bidder in last 5 years",
+        "responseType": "text",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Financial Health"
+      },
+      {
+        "prompt": "Financial Bid / Price Quoted? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Financial Bid / Price Quoted ",
+        "question": "Financial Bid / Price Quoted ",
+        "responseType": "text",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": "Financial Health"
+      }
+    ]
+  },
+  {
+    "questionCategory": "Technical Experience",
+    "prompt": [
+      {
+        "prompt": "List all the past project experiences of the bidder detailing name and location of work along with Project / Work Name, Project / Work Location, Client Name, Code of Project / Work order Number, Work Order Date, Work Order Amount ,Work Order Amount / Project cost, Date of work Commencement, Date of Work Completion, Actual Executed Value Of Work on Completion, Status of Work Completion Certificate, Nature of work / Category of Project? Response json schema is : [{\"question\":\"\",\"response\":[[{\"key\":\"Project / Work Name\",\"value\":\"\"},{\"key\":\" Project / Work Location\",\"value\":\"\"},{\"key\":\" Client Name\",\"value\":\"\"},{\"key\":\" Code of Project / Work Order Number\",\"value\":\"\"},{\"key\":\" Work Order Date\",\"value\":\"\"},{\"key\":\" Work Order Amount / Project Cost\",\"value\":\"\"},{\"key\":\" Date of Work Commencement\",\"value\":\"\"},{\"key\":\" Date of Work Completion\",\"value\":\"\"},{\"key\":\" Actual Executed Value of Work on Completion\",\"value\":\"\"},{\"key\":\" Status of Work Completion Certificate\",\"value\":\"\"},{\"key\":\" Nature of Work / Category of Project\",\"value\":\"\"}]]}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "List all the past project experiences of the bidder detailing name and location of work along with Project / Work Name, Project / Work Location, Client Name, Code of Project / Work order Number, Work Order Date, Work Order Amount ,Work Order Amount / Project cost, Date of work Commencement, Date of Work Completion, Actual Executed Value Of Work on Completion, Status of Work Completion Certificate, Nature of work / Category of Project",
+        "question": "List all the past project experiences of the bidder detailing name and location of work along with Project / Work Name, Project / Work Location, Client Name, Code of Project / Work order Number, Work Order Date, Work Order Amount ,Work Order Amount / Project cost, Date of work Commencement, Date of Work Completion, Actual Executed Value Of Work on Completion, Status of Work Completion Certificate, Nature of work / Category of Project",
+        "responseType": "list",
+        "questionType": "Custom",
+        "attributes": [
+          "Project / Work Name",
+          " Project / Work Location",
+          " Client Name",
+          " Code of Project / Work Order Number",
+          " Work Order Date",
+          " Work Order Amount / Project Cost",
+          " Date of Work Commencement",
+          " Date of Work Completion",
+          " Actual Executed Value of Work on Completion",
+          " Status of Work Completion Certificate",
+          " Nature of Work / Category of Project"
+        ],
+        "subCategory": ""
+      },
+      {
+        "prompt": "Any Eligible Experience listed more than once? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Any Eligible Experience listed more than once",
+        "question": "Any Eligible Experience listed more than once",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": ""
+      },
+      {
+        "prompt": "Any of the listed Eligible Projects for Maintenance Work, excluding those maintenance work that are part of EPC Projects? Provide answer in YES or NO format. Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+        "questionItem": "Any of the listed Eligible Projects for Maintenance Work, excluding those maintenance work that are part of EPC Projects",
+        "question": "Any of the listed Eligible Projects for Maintenance Work, excluding those maintenance work that are part of EPC Projects",
+        "responseType": "yes/no",
+        "questionType": "Custom",
+        "attributes": null,
+        "subCategory": ""
+      }
+    ]
+  }
+]}

@@ -1,0 +1,26 @@
+{"promptConfig": [
+    {
+      "questionCategory": "KYB: Know Your Bidder",
+      "prompt": [
+        {
+          "prompt": "Name Of The Bidder? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+          "questionItem": "Name Of The Bidder",
+          "question": "Name Of The Bidder",
+          "responseType": "text",
+          "questionType": "generic",
+          "attributes": null,
+          "subCategory": "Bidder Identity"
+        },
+        {
+          "prompt": "Address of the Bidder? Response json schema is : [{\"question\":\"\",\"response\":\"\"}]. Please provide the answer and asked question as per above json schema. Question key value should be until '?' only.\n",
+          "questionItem": "Address of the Bidder",
+          "question": "Address of the Bidder",
+          "responseType": "text",
+          "questionType": "generic",
+          "attributes": null,
+          "subCategory": "Bidder Identity"
+        }
+        
+      ]
+    }
+  ]}
